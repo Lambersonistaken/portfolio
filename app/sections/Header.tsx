@@ -10,7 +10,7 @@ const Header = () => {
             <div className="flex items-center justify-between sm:justify-evenly lg:justify-evenly md:justify-evenly">
             <div className="flex items-center gap-2 px-4 py-4">
                 <Image className="lg:w-10" src={blacklogo} alt="logo"></Image>
-                <h1 className="font-extrabold tracking-tighter bg-gradient-to-b from-black to-[#515253] text-transparent bg-clip-text lg:text-3xl">İsmail Emir</h1>
+                <h1 className="font-extrabold tracking-tighter bg-gradient-to-b from-black to-[#515253] text-transparent bg-clip-text sm:text-xl md:text-2xl lg:text-3xl">İsmail Emir</h1>
             </div>
             <div className="px-4 py-4 sm:hidden">
                 <Image src={headerMenu} alt="header menu"></Image>
