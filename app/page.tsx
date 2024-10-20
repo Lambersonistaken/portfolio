@@ -1,5 +1,6 @@
 // import Image from "next/image";
 
+import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Experience />
+      <About />
     </div>
   );
 }
