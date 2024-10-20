@@ -9,9 +9,9 @@ const Experience = () => {
   return (
     <section className="mt-16 px-2 bg-black">
         <div className="container sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto">
-        <h2 className="font-medium text-white text-2xl leading-snug text-center py-10">My <span className="font-extrabold">Experience</span></h2>
+        <h2 className="font-medium text-white text-2xl leading-snug text-center py-10 xl:text-3xl">My <span className="font-extrabold">Experience</span></h2>
         <div className="card-container flex flex-col items-center justify-center gap-4">
-          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
+          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
                 <Image src={jotformLogo} width={32} alt="company logo"></Image>
@@ -31,7 +31,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="card border-2 flex flex-col bg-zinc-800 rounded-lg border-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
+          <div className="card border-2 flex flex-col bg-zinc-800 rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
                 <Image src={mobvenLogo} width={32} alt="company logo"></Image>
@@ -49,7 +49,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
+          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
                 <Image src={ttLogo} width={32} alt="company logo"></Image>
@@ -67,7 +67,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
+          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1200px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
                 <Image src={alfatekLogo} width={32} alt="company logo"></Image>

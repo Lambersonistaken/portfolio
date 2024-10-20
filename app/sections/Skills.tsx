@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <section className="mt-16 px-2">
         <div className="container sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto">
-            <h2 className="font-medium text-2xl leading-snug text-center py-10">My <span className="font-extrabold">Skills</span></h2>
+            <h2 className="font-medium text-2xl leading-snug text-center py-10 xl:text-3xl">My <span className="font-extrabold">Skills</span></h2>
             <div className="flex gap-6 items-center justify-center flex-wrap mt-6 mb-2 lg:hidden xl:hidden 2xl:hidden">
                 <Card className="cursor-pointer w-2/5 flex items-center flex-col py-2">
                   <CardContent>
