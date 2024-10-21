@@ -135,7 +135,7 @@ const Skills = () => {
                     <Image width={50} className="mx-auto sm:w-[70px]" src={postgresicon} alt="postgres icon"></Image>
                   </CardContent>
                     <CardFooter>
-                        <h3 className="font-semibold">Tailwind CSS</h3>
+                        <h3 className="font-semibold">PostgreSQL</h3>
                      </CardFooter>
                 </Card>
                 <Card className="cursor-pointer w-1/6 flex items-center flex-col py-2 sm:px-2 sm:py-4">
