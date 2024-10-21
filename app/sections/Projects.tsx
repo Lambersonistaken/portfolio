@@ -1,8 +1,4 @@
 "use client"
-import Image from "next/image";
-import landingApp from "@/app/assets/landingapp.png"
-import chatApp from "@/app/assets/chatpdfapp.png"
-import spotiClone from "@/app/assets/spotifyapp.png"
 import { Link2Icon } from "@radix-ui/react-icons"
 
 const Projects = () => {
@@ -14,8 +10,8 @@ const Projects = () => {
         <div className="card-container mt-8">
 
             <div className="project-card mt-8 mb-6 px-2 flex flex-col items-center gap-4">
-                <Image className="rounded-lg hover:scale-110 transition duration-500 ease-in-out" src={landingApp} width={350} alt="landing app"></Image>
-                
+                <div className="rounded-lg hover:scale-110 transition duration-500 ease-in-out bg-landing bg-cover bg-no-repeat w-[350px] h-[380px]" >
+                </div>
                 <div className="text-white flex flex-col gap-2">
                     <h1 className="font-extrabold text-lg">01</h1>
                     <h1 className="font-bold">Elegant Landing Page</h1>
@@ -26,7 +22,8 @@ const Projects = () => {
 
 
             <div className="project-card mt-8 mb-6 px-2 flex flex-col items-center gap-4">
-                <Image className="rounded-lg hover:scale-110 transition duration-500 ease-in-out" src={chatApp} width={350} alt="landing app"></Image>
+            <div className="rounded-lg hover:scale-110 transition duration-500 ease-in-out bg-chat bg-cover bg-no-repeat bg-right-top w-[350px] h-[380px]" >
+            </div>
                 <div className="text-white flex flex-col gap-2">
                     <h1 className="font-extrabold text-lg">02</h1>
                     <h1 className="font-bold">Chat With PDF AI Application</h1>
@@ -36,7 +33,8 @@ const Projects = () => {
             </div>
 
             <div className="project-card mt-8 mb-6 px-2 flex flex-col items-center gap-4">
-                <Image className="rounded-lg hover:scale-110 transition duration-500 ease-in-out" src={spotiClone} width={350} alt="landing app"></Image>
+            <div className="rounded-lg hover:scale-110 transition duration-500 ease-in-out bg-spotify bg-cover bg-no-repeat w-[350px] h-[380px]" >
+            </div>
                 <div className="text-white flex flex-col gap-2">
                     <h1 className="font-extrabold text-lg">03</h1>
                     <h1 className="font-bold">Spotify Clone Application</h1>
@@ -46,7 +44,8 @@ const Projects = () => {
             </div>
 
             <div className="project-card mt-8 mb-6 px-2 flex flex-col items-center gap-4">
-                <Image className="rounded-lg hover:scale-110 transition duration-500 ease-in-out" src={landingApp} width={350} alt="landing app"></Image>
+            <div className="rounded-lg hover:scale-110 transition duration-500 ease-in-out bg-notes bg-cover bg-no-repeat bg-center w-[350px] h-[380px]" >
+            </div>
                 <div className="text-white flex flex-col gap-2">
                     <h1 className="font-extrabold text-lg">01</h1>
                     <h1 className="font-bold">Elegant Landing Page</h1>
