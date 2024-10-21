@@ -4,6 +4,7 @@ import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <About />
+      <Projects />
     </div>
   );
 }

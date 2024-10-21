@@ -26,7 +26,7 @@ const Header = () => {
                     <li>Contact Me</li>
                   </ul>
             </div>
-            <Button>
+            <Button className="hidden sm:block">
               <PinBottomIcon /> Resume
             </Button>
             </div>
