@@ -2,6 +2,7 @@
 
 import About from "./sections/About";
 import Experience from "./sections/Experience";
+import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
@@ -16,6 +17,7 @@ export default function Home() {
       <Experience />
       <About />
       <Projects />
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import aboutImage from "@/app/assets/aboutmeimg.svg"
 
 const About = () => {
   return (
-    <section className="mt-16 px-2 mb-8">
+    <section id="about" className="mt-16 px-2 mb-8">
         <div className="container flex flex-col items-center md:flex-row gap-4 md:justify-center mx-auto">
             <Image className=" md:w-[380px] xl:w-[500px]" src={aboutImage} alt="about-me"></Image>
             <div className="flex flex-col px-8 mt-6 xl:w-[600px] 2xl:w-[700px]">
