@@ -5,6 +5,15 @@ import blacklogo from "@/app/assets/blacklogo.svg";
 import { Button } from "@/components/ui/button";
 import { PinBottomIcon } from "@radix-ui/react-icons";
 import { Link } from 'react-scroll';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
 
 const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
 
@@ -25,7 +34,39 @@ const Header = () => {
             </h1>
           </div>
           <div className="px-4 py-4 sm:hidden ml-auto">
-            <Image src={headerMenu} alt="header menu"></Image>
+          <DropdownMenu>
+              <DropdownMenuTrigger><Image src={headerMenu} alt="header menu"></Image></DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuLabel>
+                  <h1 onClick={scrollToTop} className="font-semibold tracking-tighter cursor-pointer">
+                İsmail Emir
+            </h1>
+                  </DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>
+                  <Link to="about" smooth={true} duration={500} offset={-150}>
+                <li className=" list-none text-black font-semibold cursor-pointer transition duration-300 ease-in-out hover:text-blue-300">About Me</li>
+              </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                  <Link to="experience" smooth={true} duration={500} offset={-50}>
+                <li className=" list-none text-black font-semibold cursor-pointer transition duration-300 ease-in-out hover:text-blue-300">Experience</li>
+              </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                  <Link to="projects" smooth={true} duration={500} offset={-50}>
+                <li className=" list-none text-black font-semibold cursor-pointer transition duration-300 ease-in-out hover:text-blue-300">Project</li>
+              </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                  <Link to="contact" smooth={true} duration={500} offset={-50}>
+                <li className=" list-none text-black font-semibold cursor-pointer transition duration-300 ease-in-out hover:text-blue-300">Contact Me</li>
+              </Link>
+                  </DropdownMenuItem>
+              </DropdownMenuContent>
+          </DropdownMenu>
+
+            
           </div>
           <div className="hidden sm:block ">
             <ul className="flex items-center gap-5 font-semibold sm:text-sm lg:text-2xl">
