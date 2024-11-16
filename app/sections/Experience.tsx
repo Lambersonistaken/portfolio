@@ -38,7 +38,7 @@ const Experience = () => {
                 <h3 className="text-white font-semibold">Frontend Developer Intern at Mobven</h3>
               </div>
               <div>
-                <p className="text-zinc-400 mt-6">Aug 2024 - Sep 2024</p>
+                <p className="text-zinc-400 mt-6">April 2024 - June 2024</p>
               </div>
             </div>
             <div className="desc text-white mt-6">
@@ -56,7 +56,7 @@ const Experience = () => {
                 <h3 className="text-white font-semibold">Frontend Developer Intern at Türk Telekom</h3>
               </div>
               <div>
-                <p className="text-zinc-400 mt-6">Aug 2024 - Sep 2024</p>
+                <p className="text-zinc-400 mt-6">July 2023 - April 2024</p>
               </div>
             </div>
             <div className="desc text-white mt-6">
@@ -74,7 +74,7 @@ const Experience = () => {
                 <h3 className="text-white font-semibold">Frontend Developer Intern at Alfatek</h3>
               </div>
               <div>
-                <p className="text-zinc-400 mt-6">Aug 2024 - Sep 2024</p>
+                <p className="text-zinc-400 mt-6">Sep 2022 - Jan 2023</p>
               </div>
             </div>
             <div className="desc text-white mt-6">
