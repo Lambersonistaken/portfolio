@@ -84,7 +84,7 @@ const Header = () => {
               </Link>
             </ul>
           </div>
-          <a href="./IsmailCV.pdf" download>
+          <a href="./IsmailResume.pdf" download>
             <Button className="hidden sm:flex">
               <PinBottomIcon /> Resume
             </Button>

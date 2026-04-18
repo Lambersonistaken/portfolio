@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import stashLogo from "@/app/assets/stash-logo.svg"
 import jotformLogo from "@/app/assets/jotformlogo.png"
 import alfatekLogo from "@/app/assets/alfateklogo.png"
 import ttLogo from "@/app/assets/ttlogo.png"
@@ -11,6 +12,29 @@ const Experience = () => {
         <div className="container sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto">
         <h2 className="font-medium text-white text-2xl leading-snug text-center py-10 xl:text-3xl">My <span className="font-extrabold">Experience</span></h2>
         <div className="card-container flex flex-col items-center justify-center gap-4">
+          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1100px] 2xl:w-[1500px]">
+            <div className="role flex items-start flex-col">
+              <div className="flex flex-row gap-4 items-center">
+                <Image src={stashLogo} width={32} alt="company logo"></Image>
+                <h3 className="text-white font-semibold">Founding Engineer at Stash</h3>
+              </div>
+              <div>
+                <p className="text-zinc-400 mt-6">March 2025 - March 2026</p>
+              </div>
+            </div>
+            <div className="desc text-white mt-6">
+                <p>Built full-stack and AI-powered features for an AI developer tool using Vue, Pinia, Python Django, and TypeScript 
+                   implementing CRUD operations, authentication/authorization flows, REST APIs, and PostgreSQL database integrations 
+                   while delivering scalable, production-ready modules.
+                   Developed custom VS Code and JetBrains plugins, implemented an MCP server, and integrated AI/LLM-powered features 
+                   including smart search and context-aware issue analysis; containerized services with Docker and managed CI/CD pipelines 
+                   via GitHub Actions.
+                   Served as a founding engineer in an agile startup environment, taking end-to-end ownership of backend architecture, 
+                   product development, and cross-functional initiatives to drive product growth; wrote and maintained unit tests across 
+                   frontend and backend codebases.</p>
+            </div>
+          </div>
+
           <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1100px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
@@ -31,7 +55,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="card border-2 flex flex-col bg-zinc-800 rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1100px] 2xl:w-[1500px]">
+          <div className="card border-2 flex flex-col rounded-lg border-zinc-700 transition duration-500 ease-in-out hover:bg-zinc-700 px-6 w-[340px] py-8 mb-2 lg:w-[1000px] xl:w-[1100px] 2xl:w-[1500px]">
             <div className="role flex items-start flex-col">
               <div className="flex flex-row gap-4 items-center">
                 <Image src={mobvenLogo} width={32} alt="company logo"></Image>
